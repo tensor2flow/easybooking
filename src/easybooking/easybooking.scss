@@ -1,0 +1,195 @@
+$primary : #0FB8D3;
+$secondary : #C2C2C2;
+
+.easybooking--footer{
+    width: 100%;
+}
+
+.easybooking--double-combobox {
+    display: flex;
+    border: 1px solid $primary;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: white;
+    .easybooking--double-combobox-field {
+        input {
+            border: 0 !important;
+            padding-right: 16px !important;
+            padding-left: 16px !important;
+            color: #4A4A4A;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background-color: white;
+            border: 1px solid #CDCDCD;
+            border-radius: 4px;
+            outline: none;
+            height: 100%;
+            width: 100%;
+            font-size: 14px;
+            box-sizing: border-box;
+            padding: 0 0px;
+            box-shadow: none;
+            transition: box-shadow .3s, border .3s;
+            font-family: "Roboto";
+            padding-right: 36px;
+            float: left
+        }
+        .first {
+            padding-right: 5px !important;
+        }
+        .last {
+            text-align: right;
+            padding-left: 5px !important;
+            margin-right: 10px;
+        }
+    }
+    .easybooking--double-combobox-icon-btn {
+        height: 30px;
+        width: 30px;
+    }
+    .easybooking--double-combobox-code{
+        position: relative;
+        transform: translateY(25%);
+    }
+}
+
+.date-switch.v-input--selection-controls{
+    margin-top: 0px;
+    padding-top: 0px;
+    flex: 0 1 auto;
+}
+.date-switch-label{
+    font-size: 13px;
+}
+.active-date-swwitch-label{
+    color: $primary;
+}
+
+.v-picker.v-card{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.v-menu__content.menuable__content__active{
+    box-shadow: 0px 5px 10px rgba(0, 8, 19, 0.15);
+}
+
+.easybooking--passanger-btn{
+    background-color: white !important;
+    border: 1px solid $primary;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 400;
+    border-radius: 4px;
+    height: 44px;
+}
+
+.v-btn{
+    border-radius: 4px;
+}
+
+.easybooking--search-btn{
+    height: 42px;;
+}
+
+.easybooking-card{
+    border-radius: 4px;
+    margin-bottom: 20px;
+    .v-card__title{
+        background-color: $primary;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        border-radius: 4px 4px 0px 0px;
+    }
+    .v-card__text{
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+.eb-divider-txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding-right: 10px;
+}
+.full-width{
+    width: 100%;
+}
+.half-width{
+    width: 50% !important;
+}
+.seconday-color{
+    color: $secondary !important;
+    padding-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    .v-icon{
+        float: left;
+        margin-right: 10px;
+        margin-top: -4px;
+    }
+}
+.bordered-card{
+    border: 1px solid #DBDBDB !important;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.bordered-card:last-child{
+    margin-bottom: 0px;
+}
+.bg-white{
+    background-color: white !important;
+}
+.easybooking-primary-card{
+    .v-card__title{
+        color: $primary;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        font-family: Roboto;
+        img{
+            margin-top: -5px;
+            float: left;
+            margin-right: 5px;
+        }
+    }
+    .v-card__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        .center{
+            margin-top: 5px;
+        }
+    }
+}
+.center{
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+.text--left{
+    text-align: left !important;
+}
